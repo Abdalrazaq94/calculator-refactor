@@ -6,11 +6,28 @@
   <script src='./dependencies/evaluation.js'></script>
   <!-- this is the testing function for your logic -->
   <script src='./dependencies/testing.js'></script>
-
+  <title>
+    Abd Calculator
+  </title>
+<link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-
+  <form action="">
+    value 1: <input type="text" id="value1">
+    value 2: <input type="text" id="value1">
+    Operator :
+    <select id="operator">
+      <option value="add">Add</option>
+      <option value="min">Minus</option>
+      <option value="div">Divide</option>
+      <option value="mul">Multiply</option>
+    </select>
+    <button type="button">Calculate</button>
+  </form>
+<script src="scripts/handler.js"></script>
+<script src="scripts/listener.js"></script>
+<script src="scripts/logic.js"></script>
 </body>
 
 </html>
